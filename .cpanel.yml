@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - echo "Iniciando Deploy da aplicação Flask..."
+    - python3 -m venv venv
+    - source venv/bin/activate
+    - pip install -r requirements.txt
+    - echo "Finalizando Deploy..."
